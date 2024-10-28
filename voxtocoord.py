@@ -54,8 +54,18 @@ def select_folder():
     return folder_path
 
 def algorithm(xyz):
-    start = xyz[0][0] #[0][0] - colour, [0][1] - coordinates
-    print (start)
+    start = xyz[0][0] #[X][0] - colour, [X][1] - coordinates
+    #print (start)
+    NewL = []
+    print (xyz[0][0])
+    print (xyz[1][0])
+
+    if (xyz[0][0] == xyz[1][0]):
+        print("true")
+
+    
+
+
 
 # Main function
 def main():
@@ -68,9 +78,9 @@ def main():
 
     # Extract voxel coordinates and colors and save them to the specified location
     coords = extract_voxel_coordinates_and_colors(vox_file_path, output_dir)
-    #algorithm(coords)
-    print("Format: (Colour - RGB, Coordinate)")
-    print (coords)
+    algorithm(coords)
+    #print("Format: (Colour - RGB, Coordinate)")
+    #print (coords[0])
 
 
 if __name__ == "__main__":
