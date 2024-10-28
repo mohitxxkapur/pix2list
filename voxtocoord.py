@@ -57,12 +57,22 @@ def algorithm(xyz):
     start = xyz[0][0] #[X][0] - colour, [X][1] - coordinates
     #print (start)
     NewL = []
-    print (xyz[0][0])
-    print (xyz[1][0])
+    #print (xyz[0][0])
+    #print (xyz[1][0])
 
-    if (xyz[0][0] == xyz[1][0]):
-        print("true")
+    # if (xyz[0][0] == xyz[1][0]):
+    #     print("true")
 
+    x = len(xyz)
+    for i in range(x):
+        for j in range(0, x-i-1):
+            if xyz[j][0] > xyz [j+1][0]:
+                xyz[j], xyz[j+1] = xyz[j+1], xyz[j]
+    
+    return xyz
+    
+
+    
     
 
 
@@ -78,9 +88,12 @@ def main():
 
     # Extract voxel coordinates and colors and save them to the specified location
     coords = extract_voxel_coordinates_and_colors(vox_file_path, output_dir)
-    algorithm(coords)
+    ooords = algorithm(coords)
     #print("Format: (Colour - RGB, Coordinate)")
-    #print (coords[0])
+    #print (coords)
+    print ("________________")
+    for yy in ooords:
+        print (yy)
 
 
 if __name__ == "__main__":
