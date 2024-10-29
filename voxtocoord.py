@@ -76,8 +76,8 @@ def algorithm(xyz):
             if xyz[j][0] > xyz [j+1][0]:
                 xyz[j], xyz[j+1] = xyz[j+1], xyz[j]
 
-    # for xx in xyz:
-    #     print (xx[1][0],xx[1][1],xx[1][2])
+    for xx in xyz:
+        print (xx[1][0],xx[1][1],xx[1][2])
 
     return xyz
 
