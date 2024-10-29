@@ -66,8 +66,8 @@ def algorithm(xyz):
     #print (xyz[0][0])
     #print (xyz[1][0])
 
-    # if (xyz[0][0] == xyz[1][0]):
-    #     print("true")
+    if (xyz[0][0] == xyz[1][0]):
+        print("true")
 
     x = len(xyz)
     #print (x)
