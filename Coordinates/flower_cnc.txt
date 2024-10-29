@@ -1,0 +1,51 @@
+Coordinate: (2, 4, 7), Color(rgb): (0, 136, 0), Index: 1
+Coordinate: (3, 4, 4), Color(rgb): (0, 136, 0), Index: 2
+Coordinate: (3, 4, 5), Color(rgb): (0, 136, 0), Index: 3
+Coordinate: (3, 4, 6), Color(rgb): (0, 136, 0), Index: 4
+Coordinate: (3, 4, 7), Color(rgb): (0, 136, 0), Index: 5
+Coordinate: (3, 4, 8), Color(rgb): (0, 136, 0), Index: 6
+Coordinate: (3, 4, 9), Color(rgb): (0, 136, 0), Index: 7
+Coordinate: (4, 4, 5), Color(rgb): (0, 136, 0), Index: 8
+Coordinate: (4, 4, 6), Color(rgb): (0, 136, 0), Index: 9
+Coordinate: (5, 4, 5), Color(rgb): (0, 136, 0), Index: 10
+Coordinate: (2, 3, 3), Color(rgb): (204, 102, 0), Index: 11
+Coordinate: (2, 4, 1), Color(rgb): (204, 102, 0), Index: 12
+Coordinate: (2, 4, 2), Color(rgb): (204, 102, 0), Index: 13
+Coordinate: (2, 4, 3), Color(rgb): (204, 102, 0), Index: 14
+Coordinate: (2, 5, 3), Color(rgb): (204, 102, 0), Index: 15
+Coordinate: (3, 3, 1), Color(rgb): (204, 102, 0), Index: 16
+Coordinate: (3, 3, 2), Color(rgb): (204, 102, 0), Index: 17
+Coordinate: (3, 3, 3), Color(rgb): (204, 102, 0), Index: 18
+Coordinate: (3, 4, 1), Color(rgb): (204, 102, 0), Index: 19
+Coordinate: (3, 4, 2), Color(rgb): (204, 102, 0), Index: 20
+Coordinate: (3, 4, 3), Color(rgb): (204, 102, 0), Index: 21
+Coordinate: (3, 5, 1), Color(rgb): (204, 102, 0), Index: 22
+Coordinate: (3, 5, 2), Color(rgb): (204, 102, 0), Index: 23
+Coordinate: (3, 5, 3), Color(rgb): (204, 102, 0), Index: 24
+Coordinate: (4, 3, 3), Color(rgb): (204, 102, 0), Index: 25
+Coordinate: (4, 4, 1), Color(rgb): (204, 102, 0), Index: 26
+Coordinate: (4, 4, 2), Color(rgb): (204, 102, 0), Index: 27
+Coordinate: (4, 4, 3), Color(rgb): (204, 102, 0), Index: 28
+Coordinate: (4, 5, 3), Color(rgb): (204, 102, 0), Index: 29
+Coordinate: (1, 4, 11), Color(rgb): (204, 102, 204), Index: 30
+Coordinate: (1, 4, 12), Color(rgb): (204, 102, 204), Index: 31
+Coordinate: (1, 4, 13), Color(rgb): (204, 102, 204), Index: 32
+Coordinate: (2, 4, 10), Color(rgb): (204, 102, 204), Index: 33
+Coordinate: (2, 4, 11), Color(rgb): (204, 102, 204), Index: 34
+Coordinate: (2, 4, 12), Color(rgb): (204, 102, 204), Index: 35
+Coordinate: (3, 4, 10), Color(rgb): (204, 102, 204), Index: 36
+Coordinate: (3, 4, 11), Color(rgb): (204, 102, 204), Index: 37
+Coordinate: (3, 4, 12), Color(rgb): (204, 102, 204), Index: 38
+Coordinate: (3, 4, 13), Color(rgb): (204, 102, 204), Index: 39
+Coordinate: (3, 4, 14), Color(rgb): (204, 102, 204), Index: 40
+Coordinate: (4, 4, 10), Color(rgb): (204, 102, 204), Index: 41
+Coordinate: (4, 4, 11), Color(rgb): (204, 102, 204), Index: 42
+Coordinate: (4, 4, 12), Color(rgb): (204, 102, 204), Index: 43
+Coordinate: (5, 4, 11), Color(rgb): (204, 102, 204), Index: 44
+Coordinate: (5, 4, 12), Color(rgb): (204, 102, 204), Index: 45
+Coordinate: (5, 4, 13), Color(rgb): (204, 102, 204), Index: 46
+
+# of each colour: 
+(0, 136, 0): 10
+(204, 102, 0): 19
+(204, 102, 204): 17

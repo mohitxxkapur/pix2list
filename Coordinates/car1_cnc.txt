@@ -1,168 +1,175 @@
-Coordinate: (1, 4, 0), Color: (17, 17, 17)
-Coordinate: (1, 4, 1), Color: (17, 17, 17)
-Coordinate: (1, 5, 0), Color: (17, 17, 17)
-Coordinate: (1, 5, 1), Color: (17, 17, 17)
-Coordinate: (1, 8, 0), Color: (17, 17, 17)
-Coordinate: (1, 8, 1), Color: (17, 17, 17)
-Coordinate: (1, 9, 0), Color: (17, 17, 17)
-Coordinate: (1, 9, 1), Color: (17, 17, 17)
-Coordinate: (2, 1, 1), Color: (238, 238, 238)
-Coordinate: (2, 1, 2), Color: (255, 255, 51)
-Coordinate: (2, 2, 1), Color: (238, 238, 238)
-Coordinate: (2, 2, 2), Color: (238, 238, 238)
-Coordinate: (2, 3, 1), Color: (238, 238, 238)
-Coordinate: (2, 3, 2), Color: (238, 238, 238)
-Coordinate: (2, 3, 3), Color: (238, 238, 238)
-Coordinate: (2, 3, 4), Color: (238, 238, 238)
-Coordinate: (2, 4, 1), Color: (238, 238, 238)
-Coordinate: (2, 4, 2), Color: (238, 238, 238)
-Coordinate: (2, 4, 3), Color: (0, 153, 255)
-Coordinate: (2, 4, 4), Color: (238, 238, 238)
-Coordinate: (2, 5, 1), Color: (238, 238, 238)
-Coordinate: (2, 5, 2), Color: (238, 238, 238)
-Coordinate: (2, 5, 3), Color: (0, 153, 255)
-Coordinate: (2, 5, 4), Color: (238, 238, 238)
-Coordinate: (2, 6, 1), Color: (238, 238, 238)
-Coordinate: (2, 6, 2), Color: (238, 238, 238)
-Coordinate: (2, 6, 3), Color: (238, 238, 238)
-Coordinate: (2, 6, 4), Color: (238, 238, 238)
-Coordinate: (2, 7, 1), Color: (238, 238, 238)
-Coordinate: (2, 7, 2), Color: (238, 238, 238)
-Coordinate: (2, 7, 3), Color: (238, 238, 238)
-Coordinate: (2, 7, 4), Color: (238, 238, 238)
-Coordinate: (2, 8, 1), Color: (238, 238, 238)
-Coordinate: (2, 8, 2), Color: (238, 238, 238)
-Coordinate: (2, 8, 3), Color: (0, 153, 255)
-Coordinate: (2, 8, 4), Color: (238, 238, 238)
-Coordinate: (2, 9, 1), Color: (238, 238, 238)
-Coordinate: (2, 9, 2), Color: (238, 238, 238)
-Coordinate: (2, 9, 3), Color: (0, 153, 255)
-Coordinate: (2, 9, 4), Color: (238, 238, 238)
-Coordinate: (2, 10, 1), Color: (238, 238, 238)
-Coordinate: (2, 10, 2), Color: (238, 238, 238)
-Coordinate: (2, 10, 3), Color: (238, 238, 238)
-Coordinate: (2, 10, 4), Color: (238, 238, 238)
-Coordinate: (2, 11, 1), Color: (238, 238, 238)
-Coordinate: (2, 11, 2), Color: (238, 0, 0)
-Coordinate: (3, 1, 1), Color: (238, 238, 238)
-Coordinate: (3, 1, 2), Color: (238, 238, 238)
-Coordinate: (3, 2, 1), Color: (238, 238, 238)
-Coordinate: (3, 2, 2), Color: (238, 238, 238)
-Coordinate: (3, 3, 1), Color: (238, 238, 238)
-Coordinate: (3, 3, 2), Color: (238, 238, 238)
-Coordinate: (3, 3, 3), Color: (0, 153, 255)
-Coordinate: (3, 3, 4), Color: (238, 238, 238)
-Coordinate: (3, 4, 1), Color: (238, 238, 238)
-Coordinate: (3, 4, 2), Color: (238, 238, 238)
-Coordinate: (3, 4, 3), Color: (238, 238, 238)
-Coordinate: (3, 4, 4), Color: (238, 238, 238)
-Coordinate: (3, 5, 1), Color: (238, 238, 238)
-Coordinate: (3, 5, 2), Color: (238, 238, 238)
-Coordinate: (3, 5, 3), Color: (238, 238, 238)
-Coordinate: (3, 5, 4), Color: (238, 238, 238)
-Coordinate: (3, 6, 1), Color: (238, 238, 238)
-Coordinate: (3, 6, 2), Color: (238, 238, 238)
-Coordinate: (3, 6, 3), Color: (238, 238, 238)
-Coordinate: (3, 6, 4), Color: (238, 238, 238)
-Coordinate: (3, 7, 1), Color: (238, 238, 238)
-Coordinate: (3, 7, 2), Color: (238, 238, 238)
-Coordinate: (3, 7, 3), Color: (238, 238, 238)
-Coordinate: (3, 7, 4), Color: (238, 238, 238)
-Coordinate: (3, 8, 1), Color: (238, 238, 238)
-Coordinate: (3, 8, 2), Color: (238, 238, 238)
-Coordinate: (3, 8, 3), Color: (238, 238, 238)
-Coordinate: (3, 8, 4), Color: (238, 238, 238)
-Coordinate: (3, 9, 1), Color: (238, 238, 238)
-Coordinate: (3, 9, 2), Color: (238, 238, 238)
-Coordinate: (3, 9, 3), Color: (238, 238, 238)
-Coordinate: (3, 9, 4), Color: (238, 238, 238)
-Coordinate: (3, 10, 1), Color: (238, 238, 238)
-Coordinate: (3, 10, 2), Color: (238, 238, 238)
-Coordinate: (3, 10, 3), Color: (0, 153, 255)
-Coordinate: (3, 10, 4), Color: (238, 238, 238)
-Coordinate: (3, 11, 1), Color: (238, 238, 238)
-Coordinate: (3, 11, 2), Color: (238, 238, 238)
-Coordinate: (4, 1, 1), Color: (238, 238, 238)
-Coordinate: (4, 1, 2), Color: (238, 238, 238)
-Coordinate: (4, 2, 1), Color: (238, 238, 238)
-Coordinate: (4, 2, 2), Color: (238, 238, 238)
-Coordinate: (4, 3, 1), Color: (238, 238, 238)
-Coordinate: (4, 3, 2), Color: (238, 238, 238)
-Coordinate: (4, 3, 3), Color: (0, 153, 255)
-Coordinate: (4, 3, 4), Color: (238, 238, 238)
-Coordinate: (4, 4, 1), Color: (238, 238, 238)
-Coordinate: (4, 4, 2), Color: (238, 238, 238)
-Coordinate: (4, 4, 3), Color: (238, 238, 238)
-Coordinate: (4, 4, 4), Color: (238, 238, 238)
-Coordinate: (4, 5, 1), Color: (238, 238, 238)
-Coordinate: (4, 5, 2), Color: (238, 238, 238)
-Coordinate: (4, 5, 3), Color: (238, 238, 238)
-Coordinate: (4, 5, 4), Color: (238, 238, 238)
-Coordinate: (4, 6, 1), Color: (238, 238, 238)
-Coordinate: (4, 6, 2), Color: (238, 238, 238)
-Coordinate: (4, 6, 3), Color: (238, 238, 238)
-Coordinate: (4, 6, 4), Color: (238, 238, 238)
-Coordinate: (4, 7, 1), Color: (238, 238, 238)
-Coordinate: (4, 7, 2), Color: (238, 238, 238)
-Coordinate: (4, 7, 3), Color: (238, 238, 238)
-Coordinate: (4, 7, 4), Color: (238, 238, 238)
-Coordinate: (4, 8, 1), Color: (238, 238, 238)
-Coordinate: (4, 8, 2), Color: (238, 238, 238)
-Coordinate: (4, 8, 3), Color: (238, 238, 238)
-Coordinate: (4, 8, 4), Color: (238, 238, 238)
-Coordinate: (4, 9, 1), Color: (238, 238, 238)
-Coordinate: (4, 9, 2), Color: (238, 238, 238)
-Coordinate: (4, 9, 3), Color: (238, 238, 238)
-Coordinate: (4, 9, 4), Color: (238, 238, 238)
-Coordinate: (4, 10, 1), Color: (238, 238, 238)
-Coordinate: (4, 10, 2), Color: (238, 238, 238)
-Coordinate: (4, 10, 3), Color: (0, 153, 255)
-Coordinate: (4, 10, 4), Color: (238, 238, 238)
-Coordinate: (4, 11, 1), Color: (238, 238, 238)
-Coordinate: (4, 11, 2), Color: (238, 238, 238)
-Coordinate: (5, 1, 1), Color: (238, 238, 238)
-Coordinate: (5, 1, 2), Color: (255, 255, 51)
-Coordinate: (5, 2, 1), Color: (238, 238, 238)
-Coordinate: (5, 2, 2), Color: (238, 238, 238)
-Coordinate: (5, 3, 1), Color: (238, 238, 238)
-Coordinate: (5, 3, 2), Color: (238, 238, 238)
-Coordinate: (5, 3, 3), Color: (238, 238, 238)
-Coordinate: (5, 3, 4), Color: (238, 238, 238)
-Coordinate: (5, 4, 1), Color: (238, 238, 238)
-Coordinate: (5, 4, 2), Color: (238, 238, 238)
-Coordinate: (5, 4, 3), Color: (0, 153, 255)
-Coordinate: (5, 4, 4), Color: (238, 238, 238)
-Coordinate: (5, 5, 1), Color: (238, 238, 238)
-Coordinate: (5, 5, 2), Color: (238, 238, 238)
-Coordinate: (5, 5, 3), Color: (0, 153, 255)
-Coordinate: (5, 5, 4), Color: (238, 238, 238)
-Coordinate: (5, 6, 1), Color: (238, 238, 238)
-Coordinate: (5, 6, 2), Color: (238, 238, 238)
-Coordinate: (5, 6, 3), Color: (238, 238, 238)
-Coordinate: (5, 6, 4), Color: (238, 238, 238)
-Coordinate: (5, 7, 1), Color: (238, 238, 238)
-Coordinate: (5, 7, 2), Color: (238, 238, 238)
-Coordinate: (5, 7, 3), Color: (238, 238, 238)
-Coordinate: (5, 7, 4), Color: (238, 238, 238)
-Coordinate: (5, 8, 1), Color: (238, 238, 238)
-Coordinate: (5, 8, 2), Color: (238, 238, 238)
-Coordinate: (5, 8, 3), Color: (0, 153, 255)
-Coordinate: (5, 8, 4), Color: (238, 238, 238)
-Coordinate: (5, 9, 1), Color: (238, 238, 238)
-Coordinate: (5, 9, 2), Color: (238, 238, 238)
-Coordinate: (5, 9, 3), Color: (0, 153, 255)
-Coordinate: (5, 9, 4), Color: (238, 238, 238)
-Coordinate: (5, 10, 1), Color: (238, 238, 238)
-Coordinate: (5, 10, 2), Color: (238, 238, 238)
-Coordinate: (5, 10, 3), Color: (238, 238, 238)
-Coordinate: (5, 10, 4), Color: (238, 238, 238)
-Coordinate: (5, 11, 1), Color: (238, 238, 238)
-Coordinate: (5, 11, 2), Color: (238, 0, 0)
-Coordinate: (6, 4, 0), Color: (17, 17, 17)
-Coordinate: (6, 4, 1), Color: (17, 17, 17)
-Coordinate: (6, 5, 0), Color: (17, 17, 17)
-Coordinate: (6, 5, 1), Color: (17, 17, 17)
-Coordinate: (6, 8, 0), Color: (17, 17, 17)
-Coordinate: (6, 8, 1), Color: (17, 17, 17)
-Coordinate: (6, 9, 0), Color: (17, 17, 17)
-Coordinate: (6, 9, 1), Color: (17, 17, 17)
+Coordinate: (2, 4, 3), Color(rgb): (0, 153, 255), Index: 1
+Coordinate: (2, 5, 3), Color(rgb): (0, 153, 255), Index: 2
+Coordinate: (2, 8, 3), Color(rgb): (0, 153, 255), Index: 3
+Coordinate: (2, 9, 3), Color(rgb): (0, 153, 255), Index: 4
+Coordinate: (3, 3, 3), Color(rgb): (0, 153, 255), Index: 5
+Coordinate: (3, 10, 3), Color(rgb): (0, 153, 255), Index: 6
+Coordinate: (4, 3, 3), Color(rgb): (0, 153, 255), Index: 7
+Coordinate: (4, 10, 3), Color(rgb): (0, 153, 255), Index: 8
+Coordinate: (5, 4, 3), Color(rgb): (0, 153, 255), Index: 9
+Coordinate: (5, 5, 3), Color(rgb): (0, 153, 255), Index: 10
+Coordinate: (5, 8, 3), Color(rgb): (0, 153, 255), Index: 11
+Coordinate: (5, 9, 3), Color(rgb): (0, 153, 255), Index: 12
+Coordinate: (1, 4, 0), Color(rgb): (17, 17, 17), Index: 13
+Coordinate: (1, 4, 1), Color(rgb): (17, 17, 17), Index: 14
+Coordinate: (1, 5, 0), Color(rgb): (17, 17, 17), Index: 15
+Coordinate: (1, 5, 1), Color(rgb): (17, 17, 17), Index: 16
+Coordinate: (1, 8, 0), Color(rgb): (17, 17, 17), Index: 17
+Coordinate: (1, 8, 1), Color(rgb): (17, 17, 17), Index: 18
+Coordinate: (1, 9, 0), Color(rgb): (17, 17, 17), Index: 19
+Coordinate: (1, 9, 1), Color(rgb): (17, 17, 17), Index: 20
+Coordinate: (6, 4, 0), Color(rgb): (17, 17, 17), Index: 21
+Coordinate: (6, 4, 1), Color(rgb): (17, 17, 17), Index: 22
+Coordinate: (6, 5, 0), Color(rgb): (17, 17, 17), Index: 23
+Coordinate: (6, 5, 1), Color(rgb): (17, 17, 17), Index: 24
+Coordinate: (6, 8, 0), Color(rgb): (17, 17, 17), Index: 25
+Coordinate: (6, 8, 1), Color(rgb): (17, 17, 17), Index: 26
+Coordinate: (6, 9, 0), Color(rgb): (17, 17, 17), Index: 27
+Coordinate: (6, 9, 1), Color(rgb): (17, 17, 17), Index: 28
+Coordinate: (2, 11, 2), Color(rgb): (238, 0, 0), Index: 29
+Coordinate: (5, 11, 2), Color(rgb): (238, 0, 0), Index: 30
+Coordinate: (2, 1, 1), Color(rgb): (238, 238, 238), Index: 31
+Coordinate: (2, 2, 1), Color(rgb): (238, 238, 238), Index: 32
+Coordinate: (2, 2, 2), Color(rgb): (238, 238, 238), Index: 33
+Coordinate: (2, 3, 1), Color(rgb): (238, 238, 238), Index: 34
+Coordinate: (2, 3, 2), Color(rgb): (238, 238, 238), Index: 35
+Coordinate: (2, 3, 3), Color(rgb): (238, 238, 238), Index: 36
+Coordinate: (2, 3, 4), Color(rgb): (238, 238, 238), Index: 37
+Coordinate: (2, 4, 1), Color(rgb): (238, 238, 238), Index: 38
+Coordinate: (2, 4, 2), Color(rgb): (238, 238, 238), Index: 39
+Coordinate: (2, 4, 4), Color(rgb): (238, 238, 238), Index: 40
+Coordinate: (2, 5, 1), Color(rgb): (238, 238, 238), Index: 41
+Coordinate: (2, 5, 2), Color(rgb): (238, 238, 238), Index: 42
+Coordinate: (2, 5, 4), Color(rgb): (238, 238, 238), Index: 43
+Coordinate: (2, 6, 1), Color(rgb): (238, 238, 238), Index: 44
+Coordinate: (2, 6, 2), Color(rgb): (238, 238, 238), Index: 45
+Coordinate: (2, 6, 3), Color(rgb): (238, 238, 238), Index: 46
+Coordinate: (2, 6, 4), Color(rgb): (238, 238, 238), Index: 47
+Coordinate: (2, 7, 1), Color(rgb): (238, 238, 238), Index: 48
+Coordinate: (2, 7, 2), Color(rgb): (238, 238, 238), Index: 49
+Coordinate: (2, 7, 3), Color(rgb): (238, 238, 238), Index: 50
+Coordinate: (2, 7, 4), Color(rgb): (238, 238, 238), Index: 51
+Coordinate: (2, 8, 1), Color(rgb): (238, 238, 238), Index: 52
+Coordinate: (2, 8, 2), Color(rgb): (238, 238, 238), Index: 53
+Coordinate: (2, 8, 4), Color(rgb): (238, 238, 238), Index: 54
+Coordinate: (2, 9, 1), Color(rgb): (238, 238, 238), Index: 55
+Coordinate: (2, 9, 2), Color(rgb): (238, 238, 238), Index: 56
+Coordinate: (2, 9, 4), Color(rgb): (238, 238, 238), Index: 57
+Coordinate: (2, 10, 1), Color(rgb): (238, 238, 238), Index: 58
+Coordinate: (2, 10, 2), Color(rgb): (238, 238, 238), Index: 59
+Coordinate: (2, 10, 3), Color(rgb): (238, 238, 238), Index: 60
+Coordinate: (2, 10, 4), Color(rgb): (238, 238, 238), Index: 61
+Coordinate: (2, 11, 1), Color(rgb): (238, 238, 238), Index: 62
+Coordinate: (3, 1, 1), Color(rgb): (238, 238, 238), Index: 63
+Coordinate: (3, 1, 2), Color(rgb): (238, 238, 238), Index: 64
+Coordinate: (3, 2, 1), Color(rgb): (238, 238, 238), Index: 65
+Coordinate: (3, 2, 2), Color(rgb): (238, 238, 238), Index: 66
+Coordinate: (3, 3, 1), Color(rgb): (238, 238, 238), Index: 67
+Coordinate: (3, 3, 2), Color(rgb): (238, 238, 238), Index: 68
+Coordinate: (3, 3, 4), Color(rgb): (238, 238, 238), Index: 69
+Coordinate: (3, 4, 1), Color(rgb): (238, 238, 238), Index: 70
+Coordinate: (3, 4, 2), Color(rgb): (238, 238, 238), Index: 71
+Coordinate: (3, 4, 3), Color(rgb): (238, 238, 238), Index: 72
+Coordinate: (3, 4, 4), Color(rgb): (238, 238, 238), Index: 73
+Coordinate: (3, 5, 1), Color(rgb): (238, 238, 238), Index: 74
+Coordinate: (3, 5, 2), Color(rgb): (238, 238, 238), Index: 75
+Coordinate: (3, 5, 3), Color(rgb): (238, 238, 238), Index: 76
+Coordinate: (3, 5, 4), Color(rgb): (238, 238, 238), Index: 77
+Coordinate: (3, 6, 1), Color(rgb): (238, 238, 238), Index: 78
+Coordinate: (3, 6, 2), Color(rgb): (238, 238, 238), Index: 79
+Coordinate: (3, 6, 3), Color(rgb): (238, 238, 238), Index: 80
+Coordinate: (3, 6, 4), Color(rgb): (238, 238, 238), Index: 81
+Coordinate: (3, 7, 1), Color(rgb): (238, 238, 238), Index: 82
+Coordinate: (3, 7, 2), Color(rgb): (238, 238, 238), Index: 83
+Coordinate: (3, 7, 3), Color(rgb): (238, 238, 238), Index: 84
+Coordinate: (3, 7, 4), Color(rgb): (238, 238, 238), Index: 85
+Coordinate: (3, 8, 1), Color(rgb): (238, 238, 238), Index: 86
+Coordinate: (3, 8, 2), Color(rgb): (238, 238, 238), Index: 87
+Coordinate: (3, 8, 3), Color(rgb): (238, 238, 238), Index: 88
+Coordinate: (3, 8, 4), Color(rgb): (238, 238, 238), Index: 89
+Coordinate: (3, 9, 1), Color(rgb): (238, 238, 238), Index: 90
+Coordinate: (3, 9, 2), Color(rgb): (238, 238, 238), Index: 91
+Coordinate: (3, 9, 3), Color(rgb): (238, 238, 238), Index: 92
+Coordinate: (3, 9, 4), Color(rgb): (238, 238, 238), Index: 93
+Coordinate: (3, 10, 1), Color(rgb): (238, 238, 238), Index: 94
+Coordinate: (3, 10, 2), Color(rgb): (238, 238, 238), Index: 95
+Coordinate: (3, 10, 4), Color(rgb): (238, 238, 238), Index: 96
+Coordinate: (3, 11, 1), Color(rgb): (238, 238, 238), Index: 97
+Coordinate: (3, 11, 2), Color(rgb): (238, 238, 238), Index: 98
+Coordinate: (4, 1, 1), Color(rgb): (238, 238, 238), Index: 99
+Coordinate: (4, 1, 2), Color(rgb): (238, 238, 238), Index: 100
+Coordinate: (4, 2, 1), Color(rgb): (238, 238, 238), Index: 101
+Coordinate: (4, 2, 2), Color(rgb): (238, 238, 238), Index: 102
+Coordinate: (4, 3, 1), Color(rgb): (238, 238, 238), Index: 103
+Coordinate: (4, 3, 2), Color(rgb): (238, 238, 238), Index: 104
+Coordinate: (4, 3, 4), Color(rgb): (238, 238, 238), Index: 105
+Coordinate: (4, 4, 1), Color(rgb): (238, 238, 238), Index: 106
+Coordinate: (4, 4, 2), Color(rgb): (238, 238, 238), Index: 107
+Coordinate: (4, 4, 3), Color(rgb): (238, 238, 238), Index: 108
+Coordinate: (4, 4, 4), Color(rgb): (238, 238, 238), Index: 109
+Coordinate: (4, 5, 1), Color(rgb): (238, 238, 238), Index: 110
+Coordinate: (4, 5, 2), Color(rgb): (238, 238, 238), Index: 111
+Coordinate: (4, 5, 3), Color(rgb): (238, 238, 238), Index: 112
+Coordinate: (4, 5, 4), Color(rgb): (238, 238, 238), Index: 113
+Coordinate: (4, 6, 1), Color(rgb): (238, 238, 238), Index: 114
+Coordinate: (4, 6, 2), Color(rgb): (238, 238, 238), Index: 115
+Coordinate: (4, 6, 3), Color(rgb): (238, 238, 238), Index: 116
+Coordinate: (4, 6, 4), Color(rgb): (238, 238, 238), Index: 117
+Coordinate: (4, 7, 1), Color(rgb): (238, 238, 238), Index: 118
+Coordinate: (4, 7, 2), Color(rgb): (238, 238, 238), Index: 119
+Coordinate: (4, 7, 3), Color(rgb): (238, 238, 238), Index: 120
+Coordinate: (4, 7, 4), Color(rgb): (238, 238, 238), Index: 121
+Coordinate: (4, 8, 1), Color(rgb): (238, 238, 238), Index: 122
+Coordinate: (4, 8, 2), Color(rgb): (238, 238, 238), Index: 123
+Coordinate: (4, 8, 3), Color(rgb): (238, 238, 238), Index: 124
+Coordinate: (4, 8, 4), Color(rgb): (238, 238, 238), Index: 125
+Coordinate: (4, 9, 1), Color(rgb): (238, 238, 238), Index: 126
+Coordinate: (4, 9, 2), Color(rgb): (238, 238, 238), Index: 127
+Coordinate: (4, 9, 3), Color(rgb): (238, 238, 238), Index: 128
+Coordinate: (4, 9, 4), Color(rgb): (238, 238, 238), Index: 129
+Coordinate: (4, 10, 1), Color(rgb): (238, 238, 238), Index: 130
+Coordinate: (4, 10, 2), Color(rgb): (238, 238, 238), Index: 131
+Coordinate: (4, 10, 4), Color(rgb): (238, 238, 238), Index: 132
+Coordinate: (4, 11, 1), Color(rgb): (238, 238, 238), Index: 133
+Coordinate: (4, 11, 2), Color(rgb): (238, 238, 238), Index: 134
+Coordinate: (5, 1, 1), Color(rgb): (238, 238, 238), Index: 135
+Coordinate: (5, 2, 1), Color(rgb): (238, 238, 238), Index: 136
+Coordinate: (5, 2, 2), Color(rgb): (238, 238, 238), Index: 137
+Coordinate: (5, 3, 1), Color(rgb): (238, 238, 238), Index: 138
+Coordinate: (5, 3, 2), Color(rgb): (238, 238, 238), Index: 139
+Coordinate: (5, 3, 3), Color(rgb): (238, 238, 238), Index: 140
+Coordinate: (5, 3, 4), Color(rgb): (238, 238, 238), Index: 141
+Coordinate: (5, 4, 1), Color(rgb): (238, 238, 238), Index: 142
+Coordinate: (5, 4, 2), Color(rgb): (238, 238, 238), Index: 143
+Coordinate: (5, 4, 4), Color(rgb): (238, 238, 238), Index: 144
+Coordinate: (5, 5, 1), Color(rgb): (238, 238, 238), Index: 145
+Coordinate: (5, 5, 2), Color(rgb): (238, 238, 238), Index: 146
+Coordinate: (5, 5, 4), Color(rgb): (238, 238, 238), Index: 147
+Coordinate: (5, 6, 1), Color(rgb): (238, 238, 238), Index: 148
+Coordinate: (5, 6, 2), Color(rgb): (238, 238, 238), Index: 149
+Coordinate: (5, 6, 3), Color(rgb): (238, 238, 238), Index: 150
+Coordinate: (5, 6, 4), Color(rgb): (238, 238, 238), Index: 151
+Coordinate: (5, 7, 1), Color(rgb): (238, 238, 238), Index: 152
+Coordinate: (5, 7, 2), Color(rgb): (238, 238, 238), Index: 153
+Coordinate: (5, 7, 3), Color(rgb): (238, 238, 238), Index: 154
+Coordinate: (5, 7, 4), Color(rgb): (238, 238, 238), Index: 155
+Coordinate: (5, 8, 1), Color(rgb): (238, 238, 238), Index: 156
+Coordinate: (5, 8, 2), Color(rgb): (238, 238, 238), Index: 157
+Coordinate: (5, 8, 4), Color(rgb): (238, 238, 238), Index: 158
+Coordinate: (5, 9, 1), Color(rgb): (238, 238, 238), Index: 159
+Coordinate: (5, 9, 2), Color(rgb): (238, 238, 238), Index: 160
+Coordinate: (5, 9, 4), Color(rgb): (238, 238, 238), Index: 161
+Coordinate: (5, 10, 1), Color(rgb): (238, 238, 238), Index: 162
+Coordinate: (5, 10, 2), Color(rgb): (238, 238, 238), Index: 163
+Coordinate: (5, 10, 3), Color(rgb): (238, 238, 238), Index: 164
+Coordinate: (5, 10, 4), Color(rgb): (238, 238, 238), Index: 165
+Coordinate: (5, 11, 1), Color(rgb): (238, 238, 238), Index: 166
+Coordinate: (2, 1, 2), Color(rgb): (255, 255, 51), Index: 167
+Coordinate: (5, 1, 2), Color(rgb): (255, 255, 51), Index: 168
+
+Total *insert product name here* used: 168
+(0, 153, 255): 12
+(17, 17, 17): 16
+(238, 0, 0): 2
+(238, 238, 238): 136
+(255, 255, 51): 2
