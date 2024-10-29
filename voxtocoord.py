@@ -28,14 +28,20 @@ def extract_voxel_coordinates_and_colors(vox_file_path, output_dir):
     output_file_name = f"{os.path.splitext(input_file_name)[0]}_cnc.txt" #coordinate and colour
     output_file_path = os.path.join(output_dir, output_file_name)
 
+    #sorted_voxels = algorithm(occupied_voxels)
+    finallist = []
     # Save the coordinates and colors to a text file
-    with open(output_file_path, 'w') as f:
-        finallist = []
-        for voxel in occupied_voxels:
-            f.write(f"Coordinate: ({voxel[0]}, {voxel[1]}, {voxel[2]}), Color: {voxel[3]}\n")
-            #print(voxel[0],voxel[1],voxel[2])
-            finallist.append((voxel[3],(voxel[0],voxel[1],voxel[2])))
+    
+    # with open(output_file_path, 'w') as f:
+    #     #finallist = []
+    #     for voxel in occupied_voxels:
+    #         #f.write(f"Coordinate: ({voxel[0]}, {voxel[1]}, {voxel[2]}), Color(rgb): {voxel[3]}\n")
+    #         #print(voxel[0],voxel[1],voxel[2])
+    #         finallist.append((voxel[3],(voxel[0],voxel[1],voxel[2])))
    
+    for voxel in occupied_voxels:
+        finallist.append((voxel[3],(voxel[0],voxel[1],voxel[2])))
+
     #print (finallist)
     return finallist
     #print(f"Coordinates and colors have been saved to {output_file_path}")
@@ -64,37 +70,36 @@ def algorithm(xyz):
     #     print("true")
 
     x = len(xyz)
+    #print (x)
     for i in range(x):
         for j in range(0, x-i-1):
             if xyz[j][0] > xyz [j+1][0]:
                 xyz[j], xyz[j+1] = xyz[j+1], xyz[j]
-    
+
+    # for xx in xyz:
+    #     print (xx[1][0],xx[1][1],xx[1][2])
+
     return xyz
-    
-
-    
-    
-
-
 
 # Main function
 def main():
     # User input for VOX file path and output directory
-    #vox_file_path = select_vox_file()
-    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\car1.vox"
+    #vox_file_path = select_vox_file() 
+    #output_dir = select_folder()
+    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\tester.vox"
     output_dir = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\Coordinates"
     #print (finallist)
-    #output_dir = select_folder()
+   
 
     # Extract voxel coordinates and colors and save them to the specified location
     coords = extract_voxel_coordinates_and_colors(vox_file_path, output_dir)
     ooords = algorithm(coords)
     #print("Format: (Colour - RGB, Coordinate)")
     #print (coords)
-    print ("________________")
     for yy in ooords:
-        print (yy)
-
+        print (yy) #print(yy[1]) for coordinates
+        
+    #print (ooords[46])
 
 if __name__ == "__main__":
     main()
