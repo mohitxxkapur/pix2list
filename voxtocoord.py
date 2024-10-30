@@ -33,13 +33,14 @@ def addIndex(lst):
         newL.append((lst[i],i+1))
         #print(newL[i])
 
+    return newL
+
+def neighborCheck(lst):
+
     # for i in range(len(lst)):
     #     lst[i] = (lst[i],True)
     #     print(lst[i])
 
-    return newL
-
-def neighborCheck(lst):
     for i in range(len(lst)):
         print (lst[i][0][0],lst[i][0][1],lst[i][0][2])
 
@@ -138,7 +139,7 @@ def main():
 
     #vox_file_path = select_vox_file() 
     #output_dir = select_folder()
-    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\tester1.vox"
+    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\testcub3.vox"
     output_dir = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\Coordinates"
     #print (finallist)
    
@@ -148,12 +149,12 @@ def main():
     # Create a new list to hold coordinates
     #ooords = sortByColour(coords)
     neighborCheck(coords)
-    #print (coords[1])
-    # for yy in colorcoords:
-    #     print(yy)
+    print (coords[1])
+    for yy in colorcoords:
+        print(yy)
     
-    # for zz in coords:
-    #     print (zz)
+    for zz in coords:
+        print (zz)
 
 if __name__ == "__main__":
     main()
