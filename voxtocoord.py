@@ -33,7 +33,15 @@ def addIndex(lst):
         newL.append((lst[i],i+1))
         #print(newL[i])
 
+    # for i in range(len(lst)):
+    #     lst[i] = (lst[i],True)
+    #     print(lst[i])
+
     return newL
+
+def neighborCheck(lst):
+    for i in range(len(lst)):
+        print (lst[i][0][0],lst[i][0][1],lst[i][0][2])
 
 def countColours(bcd):
     count_dict = {}
@@ -46,7 +54,7 @@ def countColours(bcd):
     
     return count_dict
 
-def algorithm(xyz):
+def sortByColour(xyz):
     start = xyz[0][0] #[X][0] - colour, [X][1] - coordinates
     #print (start)
     doneList = [] #made to hold the elments that have a part assigned
@@ -95,13 +103,13 @@ def extract_voxel_coordinates_and_colors(vox_file_path, output_dir):
     coordinates = addIndex(coordinates)
 
 
-    sorted_voxels = algorithm(occupied_voxels)
+    sorted_voxels = sortByColour(occupied_voxels)
 
     finallist = []   
     for voxel in sorted_voxels:
         finallist.append((voxel[3],(voxel[0],voxel[1],voxel[2])))
     
-    finallist1 = algorithm(finallist)
+    finallist1 = sortByColour(finallist)
 
     lengthhh = len(finallist1) - 1
 
@@ -138,14 +146,14 @@ def main():
     # Extract voxel coordinates and colors and save them to the specified location
     colorcoords, coords = extract_voxel_coordinates_and_colors(vox_file_path, output_dir)
     # Create a new list to hold coordinates
-    #ooords = algorithm(coords)
-    
+    #ooords = sortByColour(coords)
+    neighborCheck(coords)
     #print (coords[1])
-    for yy in colorcoords:
-        print(yy)
+    # for yy in colorcoords:
+    #     print(yy)
     
-    for zz in coords:
-        print (zz)
+    # for zz in coords:
+    #     print (zz)
 
 if __name__ == "__main__":
     main()
