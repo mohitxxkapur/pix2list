@@ -1,0 +1,23 @@
+Coordinate: (1, 4, 0), Color(rgb): (153, 0, 204)
+Coordinate: (2, 4, 0), Color(rgb): (153, 0, 204)
+Coordinate: (3, 4, 0), Color(rgb): (153, 0, 204)
+Coordinate: (4, 1, 0), Color(rgb): (153, 0, 204)
+Coordinate: (4, 2, 0), Color(rgb): (153, 0, 204)
+Coordinate: (4, 3, 0), Color(rgb): (153, 0, 204)
+Coordinate: (4, 4, 0), Color(rgb): (153, 0, 204)
+Coordinate: (4, 4, 1), Color(rgb): (153, 0, 204)
+Coordinate: (4, 4, 2), Color(rgb): (153, 0, 204)
+Coordinate: (4, 5, 0), Color(rgb): (153, 0, 204)
+Coordinate: (4, 6, 0), Color(rgb): (153, 0, 204)
+Coordinate: (4, 7, 0), Color(rgb): (153, 0, 204)
+Coordinate: (5, 4, 0), Color(rgb): (153, 0, 204)
+Coordinate: (6, 4, 0), Color(rgb): (153, 0, 204)
+Coordinate: (7, 4, 0), Color(rgb): (153, 0, 204)
+Coordinate: (1, 4, 1), Color(rgb): (153, 204, 255)
+Coordinate: (4, 1, 1), Color(rgb): (153, 204, 255)
+Coordinate: (4, 7, 1), Color(rgb): (153, 204, 255)
+Coordinate: (7, 4, 1), Color(rgb): (153, 204, 255)
+
+Total *insert product name here* used: 19
+(153, 0, 204): 15
+(153, 204, 255): 4

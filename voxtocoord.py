@@ -23,6 +23,18 @@ def indexAdded(abc):
         modList.append((*element,i))
     return modList
     
+def addIndex(lst):
+    # for index, xx in enumerate(lst):
+    #     lst[index] = (xx, index+1)
+    #    #print (lst[index])
+    
+    newL = []
+    for i in range(len(lst)):
+        newL.append((lst[i],i+1))
+        #print(newL[i])
+
+    return newL
+
 def countColours(bcd):
     count_dict = {}
     for item in bcd:
@@ -46,16 +58,8 @@ def algorithm(xyz):
             if xyz[j][0] > xyz [j+1][0]:
                 xyz[j], xyz[j+1] = xyz[j+1], xyz[j]
 
-    # for xx in xyz:
-    #     print (xx[1][0],xx[1][1],xx[1][2])
 
     xyz1 = indexAdded(xyz)
-
-    # for xxy in range(len(xyz1)-1):
-    #     doneList.append(xyz1[xxy])
-    #     #doneList.append("done elem")
-    #     #print (",",doneList)
-    #     #pass
 
 
     return xyz1
@@ -84,25 +88,20 @@ def extract_voxel_coordinates_and_colors(vox_file_path, output_dir):
     output_file_name = f"{os.path.splitext(input_file_name)[0]}_cnc.txt" #coordinate and colour
     output_file_path = os.path.join(output_dir, output_file_name)
 
-    # print(occupied_voxels)
-    # print(">>>>>>>>>>>>>>>>>>>>",len(occupied_voxels),">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    coordinates = []
+    for xx in occupied_voxels:
+        coordinates.append((xx[0],xx[1],xx[2]))
+    
+    coordinates = addIndex(coordinates)
+
 
     sorted_voxels = algorithm(occupied_voxels)
-
-    # print (sorted_voxels)
-    # print(">>>>>>>>>>>>>", len(sorted_voxels), ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
     finallist = []   
     for voxel in sorted_voxels:
         finallist.append((voxel[3],(voxel[0],voxel[1],voxel[2])))
     
-    # print (finallist)
-    # print(">>>>>>>>>>>>>", len(finallist), ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-
     finallist1 = algorithm(finallist)
-
-    # print (finallist1)
-    # print(">>>>>>>>>>>>>", len(finallist1), ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
     lengthhh = len(finallist1) - 1
 
@@ -123,31 +122,30 @@ def extract_voxel_coordinates_and_colors(vox_file_path, output_dir):
 
 
     #print(f"Coordinates and colors have been saved to {output_file_path}")
-    return finallist1
+    return finallist1, coordinates
 
 # Main function
 def main():
     # User input for VOX file path and output directory
-    vox_file_path = select_vox_file() 
-    output_dir = select_folder()
-    #vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\tester.vox"
-    #output_dir = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\Coordinates"
+
+    #vox_file_path = select_vox_file() 
+    #output_dir = select_folder()
+    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\tester1.vox"
+    output_dir = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\Coordinates"
     #print (finallist)
    
 
     # Extract voxel coordinates and colors and save them to the specified location
-    coords = extract_voxel_coordinates_and_colors(vox_file_path, output_dir)
+    colorcoords, coords = extract_voxel_coordinates_and_colors(vox_file_path, output_dir)
+    # Create a new list to hold coordinates
     #ooords = algorithm(coords)
     
-    for yy in coords:
+    #print (coords[1])
+    for yy in colorcoords:
         print(yy)
-
-    # for yy in ooords:
-    #    #print (yy[0],yy[1],yy[2]) #print(yy[1]) for coordinates
-    #     print (yy)
-
-   # print (ooords)
-    #print (ooords[46][2])
+    
+    for zz in coords:
+        print (zz)
 
 if __name__ == "__main__":
     main()
