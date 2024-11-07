@@ -47,7 +47,7 @@ def neighborCheck(lst):
 
     for xx in lst:
         print (xx[0],xx[1],xx[2])
-        
+
     # for i in range(len(lst)):
     #     print (lst[i][0][0],lst[i][0][1],lst[i][0][2])
 
@@ -146,7 +146,7 @@ def main():
 
     #vox_file_path = select_vox_file() 
     #output_dir = select_folder()
-    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\testcub3.vox"
+    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\tester1.vox"
     output_dir = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\Coordinates"
     #print (finallist)
    
