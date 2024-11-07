@@ -7,3 +7,6 @@ __done__
 __to do:__
 - find neigbors
 - convert to correct piece
+
+
+https://www.slynyrd.com/blog/2019/5/21/pixelblog-17-human-anatomy
