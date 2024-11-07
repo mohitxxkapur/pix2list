@@ -42,8 +42,14 @@ def neighborCheck(lst):
     #     print(lst[i])
 
     print ("Just coordinates:")
-    for i in range(len(lst)):
-        print (lst[i][0][0],lst[i][0][1],lst[i][0][2])
+    #print (lst)
+    #print (lst[1])
+
+    for xx in lst:
+        print (xx[0],xx[1],xx[2])
+        
+    # for i in range(len(lst)):
+    #     print (lst[i][0][0],lst[i][0][1],lst[i][0][2])
 
 def countColours(bcd):
     count_dict = {}
@@ -102,7 +108,7 @@ def extract_voxel_coordinates_and_colors(vox_file_path, output_dir):
     for xx in occupied_voxels:
         coordinates.append((xx[0],xx[1],xx[2]))
     
-    coordinates = addIndex(coordinates)
+    #coordinates = addIndex(coordinates)
 
 
     sorted_voxels = sortByColour(occupied_voxels)
@@ -140,7 +146,7 @@ def main():
 
     #vox_file_path = select_vox_file() 
     #output_dir = select_folder()
-    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\tester1.vox"
+    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\testcub3.vox"
     output_dir = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\Coordinates"
     #print (finallist)
    
@@ -149,14 +155,17 @@ def main():
     colorcoords, coords = extract_voxel_coordinates_and_colors(vox_file_path, output_dir)
     # Create a new list to hold coordinates
     #ooords = sortByColour(coords)
+    #print (coords)
     neighborCheck(coords)
     #print (coords[1])
-    #print ("sorted by colour")
-    for yy in colorcoords:
-        print(yy)
     
-    for zz in coords:
-        print (zz)
+    #print ("sorted by colour")
+
+    # for yy in colorcoords:
+    #     print(yy)
+    
+    # for zz in coords:
+    #     print (zz)
 
 if __name__ == "__main__":
     main()
