@@ -56,19 +56,17 @@ def neighborCheck(lst):
         neighbors = 0
         if i == first:
             print ("first")
-            print (coords[i])
             neighbors = i
 
         elif i == last:
             print ("last")
-            print (coords[i])
             neighbors = i
 
         else:
             print ("other")
-            print (coords[i])
             neighbors = i**2
 
+        print (coords[i])
         newT = (coords[i], neighbors,)
         neighborList.append(newT)
 
