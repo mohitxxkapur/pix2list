@@ -36,24 +36,59 @@ def addIndex(lst):
     return newL
 
 def neighborCheck(lst):
-
-    #print ("List before:")
-    #print (lst)
-
-    coords = []
+    #takes full list as input, extracts coordinates.
+    #counts pieces with touching faces
+    #CUrrently appends sum of coordinates as a new element, but that will bereplaced by the neighbor count
     
+    coords = []
+    neighborList = []
+    first = 0
+    last = len(lst)-1
+
+
     for i in range(len(lst)):
         coords.append(lst[i][1])
 
-    print ("Just coordinates 1 ( length of", len(coords),"):")
-    for xx in coords:
-        print (xx)
+ 
+    for i in range(len(coords)):
+        #print (coords[i])
+        #logic for first and last:
+        neighbors = 0
+        if i == first:
+            print ("first")
+            print (coords[i])
+            neighbors = i
 
-    # for i in range(len(lst)): Demonstrating how to add things to the original list
-    #     coords[i] = (coords[i][0]+coords[i][1]+coords[i][2])
-    #     lst[i] = lst[i] + (coords[i],)
+        elif i == last:
+            print ("last")
+            print (coords[i])
+            neighbors = i
+
+        else:
+            print ("other")
+            print (coords[i])
+            neighbors = i**2
+
+        newT = (coords[i], neighbors,)
+        neighborList.append(newT)
+
+        #reference: newT = (coords[i], (coords[i][0] + coords[i][1] + coords[i][2]),)
+
+    # for xx in coords:
+    #     #xum = xx[0]+xx[1]+xx[2]
+    #     #new_T = (xx, xum,)
+        
+    #     #sorting logic here
+    #     #print (xx[0])
+
+
+    #     #adding to the new list to get form ((x,y,z),#neighbors)
+    #     newT = (xx, (xx[0] + xx[1] + xx[2]),)
+    #     neighborList.append(newT)
     
-    return lst
+
+    
+    return neighborList
 
 
 def countColours(bcd):
@@ -145,7 +180,7 @@ def main():
 
     #vox_file_path = select_vox_file() 
     #output_dir = select_folder()
-    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\testcub3.vox"
+    vox_file_path = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\tester2.vox"
     output_dir = "C:\\Users\\mkapur\\Desktop\\MagicaVoxel-0.99.7.1-win64\\MagicaVoxel-0.99.7.1-win64\\vox\\Projects\\Coordinates"
     #print (finallist)
    
@@ -153,7 +188,8 @@ def main():
     colorcoords= extract_voxel_coordinates_and_colors(vox_file_path, output_dir)
     #ooords = sortByColour(coords)
     #print (coords)
-    neighborCheck(colorcoords)
+    yes = neighborCheck(colorcoords)
+    print (yes)
     #print (coords[1])
     
     #print ("sorted by colour")
