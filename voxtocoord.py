@@ -39,7 +39,6 @@ def neighborCheck(lst):
     #takes full list as input, extracts coordinates.
     #counts pieces with touching faces
     #CUrrently appends sum of coordinates as a new element, but that will bereplaced by the neighbor count
-    
     coords = []
     neighborList = []
     first = 0
@@ -49,7 +48,6 @@ def neighborCheck(lst):
     for i in range(len(lst)):
         coords.append(lst[i][1])
 
- 
     for i in range(len(coords)):
         #print (coords[i])
         #logic for first and last:
