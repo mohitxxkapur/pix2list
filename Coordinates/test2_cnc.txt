@@ -1,0 +1,21 @@
+Coordinate: (0, 1, 0), Color(rgb): (238, 238, 238)
+Coordinate: (0, 2, 0), Color(rgb): (238, 238, 238)
+Coordinate: (0, 3, 0), Color(rgb): (238, 238, 238)
+Coordinate: (0, 3, 1), Color(rgb): (238, 238, 238)
+Coordinate: (0, 4, 0), Color(rgb): (238, 238, 238)
+Coordinate: (0, 4, 1), Color(rgb): (238, 238, 238)
+Coordinate: (1, 2, 0), Color(rgb): (238, 238, 238)
+Coordinate: (1, 3, 0), Color(rgb): (238, 238, 238)
+Coordinate: (1, 4, 0), Color(rgb): (238, 238, 238)
+Coordinate: (2, 2, 0), Color(rgb): (238, 238, 238)
+Coordinate: (2, 2, 1), Color(rgb): (238, 238, 238)
+Coordinate: (3, 1, 1), Color(rgb): (238, 238, 238)
+Coordinate: (3, 2, 0), Color(rgb): (238, 238, 238)
+Coordinate: (3, 2, 1), Color(rgb): (238, 238, 238)
+Coordinate: (3, 2, 2), Color(rgb): (238, 238, 238)
+Coordinate: (3, 3, 1), Color(rgb): (238, 238, 238)
+Coordinate: (3, 3, 2), Color(rgb): (238, 238, 238)
+Coordinate: (4, 2, 1), Color(rgb): (238, 238, 238)
+
+Total *insert product name here* used: 18
+(238, 238, 238): 18
