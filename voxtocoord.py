@@ -50,21 +50,32 @@ def neighborCheck(lst):
 
     for i in range(len(coords)):
         #print (coords[i])
+
         #logic for first and last:
         neighbors = 0
-        if i == first:
-            print ("first")
-            neighbors = i
-
-        elif i == last:
-            print ("last")
-            neighbors = i
-
-        else:
-            print ("other")
-            neighbors = i
-
         print (coords[i])
+        for xx in coords:
+            print (xx)
+
+            if i == first:
+                print ("first")
+
+            elif i == last:
+                print ("last")
+
+            else:
+                print ("other")            
+
+            if coords[i] == xx:
+                print ("yes")
+            else:
+                print ("no")
+
+
+
+        print ("___________________________________________________________")
+        neighbors = i
+        #print (coords[i])
         newT = (coords[i], neighbors,)
         neighborList.append(newT)
 
