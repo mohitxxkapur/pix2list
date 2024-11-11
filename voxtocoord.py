@@ -62,7 +62,7 @@ def neighborCheck(lst):
 
         else:
             print ("other")
-            neighbors = i**2
+            neighbors = i
 
         print (coords[i])
         newT = (coords[i], neighbors,)
